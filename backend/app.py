@@ -3,7 +3,7 @@ from config import app, db
 from models import Books
 
 @app.route("/", methods=["GET"])
-def display():
+def main():
     pass
 
 @app.route("/books", methods=["GET"])
@@ -21,7 +21,7 @@ def update_book():
     pass
 
 @app.route("/update_book", methods=["DELETE"])
-def update_book():
+def delete_book():
     pass
 
 
